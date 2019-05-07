@@ -11,14 +11,11 @@
 <body>
   
 <style>
+
 html {
   scroll-behavior: smooth;
 }
-	
-body {
-  height: 800px;
-}	
-	
+
 /* The button style */
 .btn {
   background-color: ;
@@ -29,15 +26,14 @@ body {
   border-radius: 100px;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
   z-index: 15000;
-  border: 0;
 }
-	
+
 .btn:hover {
   background-color: #fff;
   color: blue;
   animation: rotate-center 0.6s ease-in-out both;
   }
-	
+
 /* Animation hover button */
 @keyframes rotate-center {
   0% {
@@ -47,7 +43,7 @@ body {
     transform: rotate(360deg);
   }
 }
-	
+
 /* The container for position the drop content menu */
 .drop {
   position: fixed;
@@ -56,7 +52,7 @@ body {
   right: 15px;
   z-index: 15000;
 }
-	
+
 /* Drop content menu */
 .drop-content {
   top: 60px;
@@ -73,7 +69,7 @@ body {
   z-index: 15000;
   animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 }
-	
+
 /* Animation of the drop content menu by click */
 @keyframes swing-in-top-fwd {
   0% {
@@ -87,7 +83,7 @@ body {
     opacity: 1;
   }
 }
-	
+
 /* Links style inside the drop-content */
 .drop-content a {
   font-size: 12px;
@@ -98,61 +94,99 @@ body {
   -webkit-transition:color 200ms ease-in-out;
   transition:color 200ms ease-in-out
 }
-	
+
 /* Change color of drop links on hover */
 .drop-content a:hover {
 color: #3265e6;
 }
-	
+
 /* Show the drop menu on hover 
 .drop:hover .drop-content {
   display: block;
 } */
-	
+
 /* Hide the drop menu by default */
 menu-content {
 display:none;
 }
-	
-/* The close button style */
-button .x {
-  width: 35px;
-  height: 35px;
-  margin-left: -8px;
-  margin-bottom: 8px;
-  background-color: #fffff;
+
+/* The old close button style 
+div .x {
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin-right: 2px;
+  background-color: white;
+  color: grey;
   font-size: 11px;
   border: 0;
-  padding: 0;
+  cursor: pointer;
 }
-	
-.x:hover {
+
+div .x:hover {
   color: blue;
- }
-	
+ }  */
+
 /* The scroll style inside the drop content menu */
 .scroll {
   overflow: scroll;
   overflow-x: hidden;
   height: 250px;
  }
-	
+
 .title-portfolio {
 font-size: 9px; 
 text-transform: uppercase;
 letter-spacing: 0.3em; 
+margin-left: 15px;
+}
+
+/* The close button style */
+.close {
+    background: white;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    cursor: pointer;
+    float: right;
+}
+
+.close:after {
+    content: '';
+    height: 15px;
+    border-left: 2px solid grey;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.close:before {
+    content: '';
+    height: 15px;
+    border-left: 2px solid grey;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+	
+div project {
+    background: grey;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    float: left;
 }
 	
 </style>
 
+<div id="project"></div>
+	
  <div class="drop">
   <button type="button" class="btn" onclick="document.getElementById('menu-content').style.display='block'">&#9776;</button>
     <div class="drop-content" id="menu-content">
-    <button type="button" onclick="document.getElementById('menu-content').style.display='none'" class="x">X</button>
-       <span class="title-portfolio">Portfolio of works:</span>
+    <div type="button" onclick="document.getElementById('menu-content').style.display='none'" class="close"></div>
+       <span class="title-portfolio">Portfolio:</span>
             <div class="scroll">
-              <a href="#Shoe ">Shoe store mobile app</a>
-              <a href="#"></a>
+              <a href="#project">Name Project</a>
+              <a href="#">-</a>
       </div>
   </div>
 </div>
