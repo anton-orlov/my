@@ -3,7 +3,7 @@ html {
 }
 	
 body {
-  height: 950px;
+  height: 1250px;
 }
 	
 /* The button style */
@@ -160,8 +160,8 @@ color: grey;
 }
 	
 .project {
-    margin-top: 400px;
-    background-color: light-grey;
+    margin-top: 700px;
+    background-color: grey;
     width: 450px;
     height: 450px;
     float: left;
