@@ -171,4 +171,5 @@ color: grey;
 hr.hr {
   border: 2px solid #f0f0f0;
   width: 150px;
+  margin-left: 15px;
 }
