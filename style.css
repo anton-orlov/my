@@ -167,3 +167,6 @@ color: grey;
     float: left;
 }
 	
+hr.hr {
+  border: 1px solid grey;
+}
