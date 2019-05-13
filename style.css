@@ -77,7 +77,7 @@ body {
 
 /* Links style inside the drop-content */
 .drop-content a {
-  font-size: 13px;
+  font-size: 14px;
   color: black;
   padding: 5px 16px;
   text-decoration: none;
@@ -169,4 +169,5 @@ color: grey;
 	
 hr.hr {
   border: 2px solid grey;
+  width: 50px;
 }
