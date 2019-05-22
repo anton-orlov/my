@@ -18,8 +18,7 @@ body {
   border: 0;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
   z-index: 15000;
-  
-}
+ }
 
 .btn:hover {
   background-color: #fff;
@@ -29,6 +28,25 @@ body {
 
 .btn:focus { outline:0; }
 
+/* Animation hover button */
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* The container for position the drop content menu */
+.drop {
+  position: fixed;
+  display: inline-block;
+  top: 200px;
+  right: 15px;
+  z-index: 15000;
+  animation: slide-in-blurred-top 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
 
 /* animation slide-in-blurred-top */
 @keyframes slide-in-blurred-top {
@@ -46,30 +64,9 @@ body {
   }
 }
 
-
-/* Animation hover button */
-@keyframes rotate-center {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* The container for position the drop content menu */
-.drop {
-  position: fixed;
-  display: inline-block;
-  top: 60px;
-  right: 15px;
-  z-index: 15000;
-	animation: slide-in-blurred-top 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
-
 /* Drop content menu */
 .drop-content {
-  top: 60px;
+  top: 200px;
   right: 15px;
   display: none;
   position: fixed;
