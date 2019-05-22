@@ -43,7 +43,7 @@ body {
   position: fixed;
   display: inline-block;
   top: 200px;
-  right: 15px;
+  right: 55px;
   z-index: 15000;
   animation: slide-in-blurred-top 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
@@ -66,8 +66,8 @@ body {
 
 /* Drop content menu */
 .drop-content {
-
-  right: 15px;
+top: -20px;
+  right: 55px;
   display: none;
   position: fixed;
   background: rgb(255,255,255);
