@@ -10,7 +10,15 @@
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 <body>
-
+	
+<script>
+	$(document).click (function (e) {
+        if (e.target != $('#menu-content')[0]) {
+        $('#menu-content').hide();
+    }
+});
+</script>
+	
 <div class="project" id="project">Project 1</div>
 <div class="project" id="project2">Project 2</div>
 	
