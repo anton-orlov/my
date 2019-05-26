@@ -11,14 +11,6 @@
 </head>
 <body>
 	
-<script>
-	$(document).click (function (e) {
-        if (e.target != $('#menu-content')[0]) {
-        $('#menu-content').hide();
-    }
-});
-</script>
-	
 <div class="project" id="project">Project 1</div>
 <div class="project" id="project2">Project 2</div>
 	
@@ -41,6 +33,13 @@
     </div>
 </div>
   
+<script>
+	$(document).click (function (e) {
+        if (e.target != $('#menu-content')[0]) {
+        $('#menu-content').hide();
+    }
+});
+</script>
   
 </body>
 </html>
