@@ -34,14 +34,10 @@
 </div>
   
 <script>
-$(function(){
-  $('html').click(function() {
-    $('#menu-content').hide();
-  });
-  
-  $('#menu-content').click(function(event){
-      event.stopPropagation();
-  });
+$('html').click(function(event) {
+    if ($(event.target).closest('#menu-content).length === 0) {
+        $('#menu-content').hide();
+    }
 });
 </script>
   
