@@ -16,7 +16,7 @@
 	
  <div class="drop">
   <button type="button" class="btn" onclick="document.getElementById('menu-content').style.display='block'">&#9776;</button>
-    <div class="drop-content" id="menu-content">
+    <div class="drop-content" id="menu-content" onclick='CloseMe(this)'>
     <div onclick="document.getElementById('menu-content').style.display='none'" class="close"></div>
        <span class="title-portfolio">Portfolio:</span>
             <div class="scroll">
@@ -34,14 +34,23 @@
 </div>
   
 <script>
-// Get the modal
-var modal = document.getElementById('menu-content');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+function CloseMe( obj )
+{
+    obj.style.display = 'none';
+}
+document.onclick = function (e) {
+     e = e || event
+     var target = e.target || e.srcElement
+     var box = document.getElementById("menu-content")
+     do {
+          if (box == target) {
+               
+               return
+          }
+          target = target.parentNode
+     } while (target)
+     
+     box.style.display = "none"
 }
 </script>
   
