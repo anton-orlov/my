@@ -34,10 +34,8 @@
 </div>
   
 <script>
-$('html').click(function(event) {
-    if ($(event.target).closest('#menu-content).length === 0) {
-        $('#menu-content').hide();
-    }
+$(document).on('click', function() {
+    $("#menu-content:not(:hover)").hide();
 });
 </script>
   
