@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Don't work in IE */
 }
 	
 body {
@@ -26,7 +26,8 @@ body {
   animation: rotate-center 0.6s ease-in-out both;
   }
 
-.btn:focus { outline:0; }
+/* hide border in Chrome */
+.btn:focus { outline:0; } 
 
 /* Animation hover button */
 @keyframes rotate-center {
@@ -106,7 +107,6 @@ body {
   transition:color 200ms ease-in-out
 }
 
-/* Change color of drop links on hover */
 .drop-content a:hover {
 color: #3265e6;
 }
@@ -120,22 +120,6 @@ color: #3265e6;
 menu-content {
 display:none;
 }
-
-/* The old close button style 
-div .x {
-  width: 15px;
-  height: 15px;
-  float: right;
-  margin-right: 2px;
-  background-color: white;
-  color: grey;
-  font-size: 11px;
-  border: 0;
-  cursor: pointer;
-}
-div .x:hover {
-  color: blue;
- }  */
 
 /* The scroll style inside the drop content menu */
 .scroll {
@@ -179,6 +163,7 @@ color: grey;
     transform: rotate(-45deg);
 }
 	
+/* div projects block */
 .project {
     margin-top: 700px;
     background-color: #f0f0f0;
