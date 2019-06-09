@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="src/bootstrap.css">
   <script src="src/jquery.js"></script>
   <script src="src/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <script src="src/uikit.min.js"></script>
+  <script src="src/uikit-icons.min.js"></script>
   <style>
   body {
       font: 400 15px Arial, sans-serif;
@@ -147,7 +150,7 @@
     .title-block-img {
       width: 450px;
       height: 450px;
-  background-image: url('src/parallax2.png');
+  background-image: url('src/parallax2.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -235,7 +238,7 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Company Name</h1> 
+  <h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;">Company Name</h1> 
   <p>We like do bla bla bla</p> 
  </div>
 <hr class="hr">
