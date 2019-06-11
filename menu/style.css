@@ -1,11 +1,11 @@
 html {
   scroll-behavior: smooth; /* Don't work in IE */
-  margin: 0px 0px 0px 0px;
 }
 	
 body {
   height: 1450px;
   font-family: 'Roboto', sans-serif;
+  margin: 0px 0px 0px 0px;
 }
 	
 /* The button style */
