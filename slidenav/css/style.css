@@ -11,7 +11,7 @@ section {
 }
 
 .sec1 {
-    background-color: grey;
+    background-color: #f0f0f0;
     height: 100vh;
 }
 
@@ -21,7 +21,7 @@ section {
 }
 
 .sec3 {
-    background-color: grey;
+    background-color: #f0f0f0;
     height: 100vh;
 }
 
@@ -34,8 +34,8 @@ nav {
     position: fixed;
     top: 30%;
     bottom: 30%;
-    left: 0;
-    width: 60px;
+    right: 0;
+    width: 40px;
 }
 
 nav ul {
