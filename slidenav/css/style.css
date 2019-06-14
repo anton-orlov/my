@@ -54,8 +54,6 @@ nav li {
     background-color: black;
     cursor: pointer;
     transition: .5s;
-        margin: 0;
-    padding: 0;
 }
 
 .dot1 {
