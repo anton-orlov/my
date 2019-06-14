@@ -12,21 +12,22 @@ section {
 
 .sec1 {
     background-color: grey;
-    height: 120vh;
+    height: 100%;
 }
 
 .sec2 {
     background-color: white;
-    height: 80vh;
+    height: 100%;
 }
 
 .sec3 {
     background-color: grey;
+    height: 100%;
 }
 
 .sec4 {
     background-color: white;
-    height: 140vh;
+    height: 100%;
 }
 
 nav {
