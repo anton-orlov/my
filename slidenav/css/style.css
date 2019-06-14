@@ -12,22 +12,22 @@ section {
 
 .sec1 {
     background-color: grey;
-    height: 100%;
+    height: 100vh;
 }
 
 .sec2 {
     background-color: white;
-    height: 100%;
+    height: 100vh;
 }
 
 .sec3 {
     background-color: grey;
-    height: 100%;
+    height: 100vh;
 }
 
 .sec4 {
     background-color: white;
-    height: 100%;
+    height: 100vh;
 }
 
 nav {
@@ -57,21 +57,21 @@ nav li {
 }
 
 .dot1 {
-    background-color: rgb(82, 43, 43);
+    background-color: black;
 }
 
 .dot2 {
-    background-color: rgb(24, 73, 44);
+    background-color: black;
 }
 
 .dot3 {
-    background-color: rgb(73, 58, 204);
+    background-color: black;
 }
 
 .dot4 {
-    background-color: rgb(58, 70, 31);
+    background-color: black;
 }
 
 .active {
-    box-shadow: 0 0 0 3px white, 0 0 0 6px red;
+    box-shadow: 0 0 0 3px white, 0 0 0 6px blue;
 }
