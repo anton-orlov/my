@@ -5,27 +5,27 @@
 }
 
 section {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     min-height: 50vh;
 }
 
 .sec1 {
-    background-color: rgb(82, 43, 43);
+    background-color: grey;
     height: 120vh;
 }
 
 .sec2 {
-    background-color: rgb(24, 73, 44);
+    background-color: white;
     height: 80vh;
 }
 
 .sec3 {
-    background-color: rgb(73, 58, 204);
+    background-color: grey;
 }
 
 .sec4 {
-    background-color: rgb(58, 70, 31);
+    background-color: white;
     height: 140vh;
 }
 
