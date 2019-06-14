@@ -35,7 +35,7 @@ nav {
     top: 30%;
     bottom: 30%;
     right: 0;
-    width: 40px;
+    width: 60px;
 }
 
 nav ul {
@@ -54,6 +54,8 @@ nav li {
     background-color: black;
     cursor: pointer;
     transition: .5s;
+        margin: 0;
+    padding: 0;
 }
 
 .dot1 {
