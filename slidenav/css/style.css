@@ -4,10 +4,10 @@
     list-style-type: none;
 }
 html {
-    overflow: scroll;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
-::-webkit-scrollbar {width: 0px;}
+::-webkit-scrollbar {width: 0px;background: transparent;}
 
 section {
     width: 100%;
