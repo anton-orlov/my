@@ -44,7 +44,36 @@ nav {
     bottom: 30%;
     right: 0;
     width: 60px;
+	-webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+
+@-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 
 nav ul {
     height: 100%;
@@ -62,12 +91,9 @@ nav li {
     background-color: black;
     cursor: pointer;
     transition: .5s;
-    transition: width .5s, height .5s;
 }
 
 nav li:hover {
-    width: 20px;
-    height: 20px;
     background-color: blue;
 }
 
