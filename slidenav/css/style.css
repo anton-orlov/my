@@ -23,6 +23,8 @@ section {
     letter-spacing: 0.3em;
     color: black;
     font-weight: 900;
+    padding-top: 150px;
+    justify-content: center;
 }
 
 .sec1 {
