@@ -28,6 +28,12 @@ section {
     justify-content: center;
 }
 
+  @media screen and (max-width: 480px) {
+    section {
+        font-size: 30px;
+    }
+  }
+
 .sec1 {
     background-color: #f0f0f0;
     height: 100vh;
