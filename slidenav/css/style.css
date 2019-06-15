@@ -62,7 +62,7 @@ nav li {
     background-color: black;
     cursor: pointer;
     transition: .5s;
-    transition: width 1s, height 2s;
+    transition: width .5s, height .5s;
 }
 
 nav li:hover {
