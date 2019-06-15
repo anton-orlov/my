@@ -62,6 +62,13 @@ nav li {
     background-color: black;
     cursor: pointer;
     transition: .5s;
+    transition: width 1s, height 2s;
+}
+
+nav li:hover {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
 }
 
 .dot1 {
