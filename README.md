@@ -1,9 +1,6 @@
 # Some of my UI works:
 Links for preview:
 
-Adaptive design page
-https://anton-orlov.github.io/my/adaptive-design/
-
 Bootstrap Company Landing Page
 https://anton-orlov.github.io/my/bootstrap/
 
