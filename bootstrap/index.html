@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="css/uikit.min.css" />
   <script src="src/uikit.min.js"></script>
   <script src="src/uikit-icons.min.js"></script>
+  <script src="src/type.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
   body {
       font: 400 15px Roboto, sans-serif;
@@ -178,6 +180,12 @@
       background-color: #fff !important;
       border-radius: 100%;
     }
+  @media screen and (max-width: 350px) {
+     .title-block-img {
+      width: 200px;
+      height: 200px;
+    }
+}  
   .slideanim {visibility:hidden;}
   .slide {
       animation-name: slide;
@@ -291,9 +299,13 @@
 </nav>
 
 
-<div class="jumbotron text-center slideanim slide">
+<div class="jumbotron text-center">
   <h1>Company Name</h1> 
   <p class="bla-bla">We like do bla bla bla</p> 
+  <h3 class="type-me donthyphenate" data-type-speed=".3">
+  <span class="typed-text" >
+  Text that's being typed faster. No deletion here.</span>
+  <span class="hide">Text that's being typed faster. No deletion here.</span></h3>
  </div>
 <hr class="hr">
   
@@ -324,7 +336,7 @@ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   
 
 <!-- Container Some title block Section -->
-<div class="container-fluid bg-grey">
+<div class="container-fluid bg-grey" data-aos="zoom-out">
   <div class="row">
     <div class="col-sm-4">
       <div class="title-block-img"></div>
@@ -448,7 +460,8 @@ $(document).ready(function(){
   });
 })
 </script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 
 </body>
 </html>
