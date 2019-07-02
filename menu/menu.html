@@ -20,30 +20,18 @@
     <div onclick="document.getElementById('menu-content').style.display='none'" class="close"></div>
        <span class="title-portfolio">Portfolio:</span>
             <div class="scroll">
-              <ul class="filter-desk" id="selectMe-desk">
-	      <li class="category-1"><a href="#project" class="active">Name Project</a></li>
+              <a href="#project">Name Project</a>
               <hr class="hr">
               <hr class="hr">
 	      <hr class="hr">
 	      <br>
-	      <li class="category-2"><a href="#project2" class="active">Second Project</a></li>
+	      <a href="#project2">Second Project</a>
               <hr class="hr">
               <hr class="hr">
 	      <hr class="hr">
-              </ul>
             </div>
     </div>
 </div>
 	
-<script>
-$(function() {
-    $("#selectMe-desk li a").click(function(e) {
-        var $a = $(this);
-        $(".filter-desk .active").removeClass("active");
-        $a.addClass("active");
-    });
-});
-</script>
-  
 </body>
 </html>
