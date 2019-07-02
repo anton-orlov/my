@@ -37,15 +37,10 @@
 	
 <script>
 $(function() {
-    var curPage = "";
-    $('.group').hide();
-    $('.category-1').show();
     $("#selectMe-desk li a").click(function(e) {
         var $a = $(this);
         $(".filter-desk .active").removeClass("active");
         $a.addClass("active");
-        curPage = $a.data("page");
-        $(".group").hide().filter("."+curPage).show();
     });
 });
 </script>
