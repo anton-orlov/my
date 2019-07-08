@@ -3,6 +3,9 @@ body {
       line-height: 1.8;
       color: #818181;
   }
+
+map { height: 100%; }
+
   h1 {
       font: Roboto Black, sans-serif;
       text-transform: uppercase;
