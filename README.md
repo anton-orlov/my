@@ -1,4 +1,3 @@
-# Some of my UI works:
 Links for preview:
 
 Bootstrap Company Landing Page
