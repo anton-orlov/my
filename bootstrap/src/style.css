@@ -220,8 +220,8 @@
     
 .hr {width:70%;color:black;background-color: #f6f6f6 !important;}
     
-.parallax {
-  background-image: url('src/parallax2.jpg');
+.parallax1 {
+  background-image: url('src/parallax.png');
   height: 300px; 
   background-attachment: fixed;
   background-position: center;
