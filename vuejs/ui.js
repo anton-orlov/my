@@ -1,4 +1,4 @@
-function changeDot() {
+function changeDot() { 
     const scrollValue = $(window).scrollTop();
     const heightSec2 = $('.sec2').offset().top;
     const heightSec3 = $('.sec3').offset().top;
