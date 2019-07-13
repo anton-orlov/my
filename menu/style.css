@@ -109,7 +109,11 @@ body {
 }
 
 .drop-content a:hover {
-color: #3265e6;
+  color: #3265e6;
+}
+
+.link {
+  color: black;
 }
 
 /* Show the drop menu on hover 
@@ -119,7 +123,7 @@ color: #3265e6;
 
 /* Hide the drop menu by default */
 menu-content {
-display:none;
+  display:none;
 }
 
 /* The scroll style inside the drop content menu */
@@ -131,52 +135,52 @@ display:none;
  }
 
 .title-portfolio {
-font-size: 9px; 
-text-transform: uppercase;
-letter-spacing: 0.3em; 
-margin-left: 15px;
-color: grey;
+  font-size: 9px; 
+  text-transform: uppercase;
+  letter-spacing: 0.3em; 
+  margin-left: 15px;
+  color: grey;
 }
 
 /* The close button style */
 .close {
-    background: white;
-    width: 15px;
-    height: 15px;
-    position: relative;
-    cursor: pointer;
-    float: right;
+  background: white;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  cursor: pointer;
+  float: right;
 }
 
 .close:after {
-    content: '';
-    height: 15px;
-    border-left: 2px solid grey;
-    position: absolute;
-    transform: rotate(45deg);
+  content: '';
+  height: 15px;
+  border-left: 2px solid grey;
+  position: absolute;
+  transform: rotate(45deg);
 }
 
 .close:before {
-    content: '';
-    height: 15px;
-    border-left: 2px solid grey;
-    position: absolute;
-    transform: rotate(-45deg);
+  content: '';
+  height: 15px;
+  border-left: 2px solid grey;
+  position: absolute;
+  transform: rotate(-45deg);
 }
 	
 /* div projects block */
 .project {
-    margin: 700px 0px 0px 0px;
-    background-color: #f0f0f0;
-    width: 100%;
-    height: 450px;
-    display: flex;
-    padding-top: 150px;
-    justify-content: center;
-    font-size: 25px; 
-    text-transform: uppercase;
-    letter-spacing: 0.3em; 
-    color: grey;
+  margin: 700px 0px 0px 0px;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  padding-top: 150px;
+  justify-content: center;
+  font-size: 25px; 
+  text-transform: uppercase;
+  letter-spacing: 0.3em; 
+  color: grey;
 }
 	
 hr.hr {
