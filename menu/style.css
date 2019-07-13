@@ -112,10 +112,6 @@ body {
   color: #3265e6;
 }
 
-.active {
-  background: Red;
-}
-
 /* Show the drop menu on hover 
 .drop:hover .drop-content {
   display: block;
