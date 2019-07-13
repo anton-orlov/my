@@ -20,13 +20,20 @@
     <div onclick="document.getElementById('menu-content').style.display='none'" class="close"></div>
     <span class="title-portfolio">Portfolio:</span>
        <div class="scroll">
-         <a href="#project" tabindex="1">Name Project</a>
+         <a href="#project">Name Project</a>
          <hr class="hr"><hr class="hr"><hr class="hr"><br>
-	 <a href="#project2" tabindex="2">Second Project</a>
+	 <a href="#project2">Second Project</a>
          <hr class="hr"><hr class="hr"><hr class="hr">
        </div>
   </div>
 </div>
-	
+
+<script>
+   $("a").click(function(){
+    $("a.link").removeClass("link");
+        $(this).addClass("link");
+   });
+</script>
+
 </body>
 </html>
