@@ -20,7 +20,7 @@
     <div onclick="document.getElementById('menu-content').style.display='none'" class="close"></div>
     <span class="title-portfolio">Portfolio:</span>
        <div class="scroll">
-         <a href="#project">Name Project</a>
+         <a href="#project" class="active">Name Project</a>
          <hr class="hr"><hr class="hr"><hr class="hr"><br>
 	 <a href="#project2">Second Project</a>
          <hr class="hr"><hr class="hr"><hr class="hr">
@@ -30,8 +30,8 @@
 
 <script>
    $("a").click(function(){
-    $("a.link").removeClass("link");
-        $(this).addClass("link");
+    $("a.active").removeClass("active");
+        $(this).addClass("active");
    });
 </script>
 
