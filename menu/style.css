@@ -100,7 +100,7 @@ body {
 /* Links style inside the drop-content */
 .drop-content a {
   font-size: 12px;
-
+  color: black;
   padding: 5px 16px;
   text-decoration: none;
   display: block;
@@ -108,7 +108,7 @@ body {
   transition:color 200ms ease-in-out
 }
 
-.drop-content a:hover {
+.drop-content a:hover, .drop-content a:focus {
   color: #3265e6;
 }
 
