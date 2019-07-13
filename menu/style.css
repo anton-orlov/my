@@ -113,7 +113,7 @@ body {
 }
 
 .link {
-  color: #3265e6;
+  color: #3265e6 !important;
 }
 
 /* Show the drop menu on hover 
