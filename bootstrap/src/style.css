@@ -31,6 +31,12 @@
       color: grey;
   }
   .jumbotron {
+      background-image: url('src/parallax.png');
+      height: 500px; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       background-color: white;
       color: black;
       padding: 100px 25px;
