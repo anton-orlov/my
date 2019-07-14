@@ -31,13 +31,13 @@
       color: grey;
   }
   .jumbotron {
-      background-image: url('parallax.png');
+      background-image: url('parallax2.jpg');
       height: 300px; 
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      
+      background-color: white;
       color: black;
       padding: 100px 25px;
       font-family: Roboto, sans-serif;
