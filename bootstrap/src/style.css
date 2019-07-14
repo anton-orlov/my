@@ -32,7 +32,7 @@
   }
   .jumbotron {
       background-image: url('parallax2.jpg');
-      height: 300px; 
+      height: 500px; 
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
