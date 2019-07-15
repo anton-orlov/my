@@ -68,8 +68,11 @@
       border: none;
       border-radius: 10px;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
-      .thumbnail p {
+  .thumbnail p {
       padding: 5px 20px 20px 20px;
   }
   .thumbnail img {
@@ -86,7 +89,7 @@
   .thumbnail:hover img {
       transform: scale(1.1);
 }
- .thumbnail:hover {
+  .thumbnail:hover {
       box-shadow: 0px 12px 26px 0px rgba(0,0,0,0.2);
       background-color: black;
       color: white;
@@ -243,9 +246,6 @@
       width:70%;
       color:black;
       background-color: #f6f6f6 !important;
-      display: flex;
-      align-items: center;
-      justify-content: center;
 }
 .parallax1 {
       background-image: url('src/parallax.png');
