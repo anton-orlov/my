@@ -32,6 +32,7 @@ $(document).ready(function(){
   });
 })
 
+// Fade out top header on scroll
 $(window).scroll(function(){
     $(".jumbotron").css("opacity", 1 - $(window).scrollTop() / 650);
   });
